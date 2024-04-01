@@ -1,0 +1,3 @@
+/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/Decision_tree_2.dir
+/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/edit_cache.dir
+/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/rebuild_cache.dir
