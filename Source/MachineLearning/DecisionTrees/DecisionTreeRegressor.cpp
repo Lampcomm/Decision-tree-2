@@ -45,19 +45,20 @@ namespace MachineLearning::DecisionTrees {
 
         auto [leftNodeDataset, rightNodeDataset] = SplitTrainingDataset(trainingDataset);
 
-        const double threadsDistributionCoeff = (double)leftNodeDataset.Features.GetNumOfRows() / (double)rightNodeDataset.Features.GetNumOfRows();
-        const int numOfLeftNodeThreads = std::round(threadsDistributionCoeff * (double)numOfAvailableThreads / (1. + threadsDistributionCoeff));
-        const int numOfRightNodeThreads = numOfAvailableThreads - numOfLeftNodeThreads;
-
         m_leftNode.reset(new DecisionTreeRegressor(c_maxDepth, c_minSampleSize, m_curDepth + 1));
         m_rightNode.reset(new DecisionTreeRegressor(c_maxDepth, c_minSampleSize, m_curDepth + 1));
 
         if (numOfAvailableThreads <= 1)
         {
-            m_leftNode->FitImpl(leftNodeDataset, numOfLeftNodeThreads);
-            m_rightNode->FitImpl(rightNodeDataset, numOfRightNodeThreads);
+            m_leftNode->FitImpl(leftNodeDataset, 1);
+            m_rightNode->FitImpl(rightNodeDataset, 1);
             return;
         }
+
+        const double threadsDistributionCoeff = (double)leftNodeDataset.Features.GetNumOfRows() / (double)rightNodeDataset.Features.GetNumOfRows();
+        const int numOfLeftNodeThreads = std::round(threadsDistributionCoeff * (double)numOfAvailableThreads / (1. + threadsDistributionCoeff));
+        const int numOfRightNodeThreads = numOfAvailableThreads - numOfLeftNodeThreads;
+
         #pragma omp task
         m_leftNode->FitImpl(leftNodeDataset, numOfLeftNodeThreads);
 
@@ -95,11 +96,13 @@ namespace MachineLearning::DecisionTrees {
         double mse = 0.0;
         const auto n = static_cast<double>(observations.GetNumOfRows() * std::ssize(m_meanObservations));
 
-        for (int rowIndex = 0; rowIndex < observations.GetNumOfRows(); ++rowIndex) {
-            auto row = observations.GetRow(rowIndex);
-            mse += std::transform_reduce(row.begin(), row.end(), m_meanObservations.begin(), 0.0,
+        for (int columnIndex = 0; columnIndex < observations.GetNumOfColumns(); ++columnIndex)
+        {
+            auto column = observations.GetColumn(columnIndex);
+            mse += std::transform_reduce(column.begin(), column.end(), 0.0,
                                          std::plus(),
-                                         [n](double observation, double prediction){ return (observation - prediction) / n * (observation - prediction); } );
+                                         [n, prediction = m_meanObservations[columnIndex]](double observation)
+                                            { return (observation - prediction) / n * (observation - prediction); });
         }
 
         return mse;

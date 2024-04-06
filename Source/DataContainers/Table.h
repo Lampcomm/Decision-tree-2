@@ -114,20 +114,25 @@ namespace DataContainers {
                 throw std::out_of_range("Column index out of range");
         }
 
-        [[nodiscard]] inline int GetElementIndexInTableData(int rowIndex, int columnIndex) const { return rowIndex * m_numOfColumns + columnIndex; }
+        [[nodiscard]] inline int GetElementIndexInTableData(int rowIndex, int columnIndex) const { return columnIndex * m_numOfRows + rowIndex; }
 
-        void RemoveRowsFromEnd(int numOfRemoveRows) { m_tableData.erase(std::prev(m_tableData.begin(), m_numOfColumns * numOfRemoveRows), m_tableData.end()); }
-        void AddRowsFromEnd(int numOfAddRows) { m_tableData.resize(m_numOfColumns * (m_numOfRows + numOfAddRows)); }
+        void RemoveRowsFromEnd(int numOfRemoveRows) {
+            auto endRowIt = std::next(m_tableData.begin(), m_numOfRows);
+            for (int i = 0; i < m_numOfColumns; ++i, endRowIt += m_numOfRows)
+                endRowIt = m_tableData.erase(std::prev(endRowIt, numOfRemoveRows), endRowIt);
+        }
+
+        void AddRowsFromEnd(int numOfAddRows) {
+            auto endRowIt = std::next(m_tableData.begin(), m_numOfRows);
+            for (int i = 0; i < m_numOfColumns; ++i, endRowIt += m_numOfRows + numOfAddRows)
+                endRowIt = m_tableData.insert(endRowIt, numOfAddRows, 0.0);
+        }
 
         void RemoveColumnsFromEnd(int numOfRemoveColumns) {
-            auto endColumnIt = std::next(m_tableData.begin(), m_numOfColumns);
-            for (int i = 0; i < m_numOfRows; ++i, endColumnIt += m_numOfColumns)
-                endColumnIt = m_tableData.erase(endColumnIt, std::next(endColumnIt, numOfRemoveColumns));
+            m_tableData.erase(std::prev(m_tableData.end(), m_numOfRows * numOfRemoveColumns), m_tableData.end());
         }
         void AddColumnsFromEnd(int numOfAddColumns) {
-            auto endColumnIt = std::next(m_tableData.begin(), m_numOfColumns);
-            for (int i = 0; i < m_numOfRows; ++i, endColumnIt += m_numOfColumns)
-                endColumnIt = m_tableData.insert(endColumnIt, numOfAddColumns, 0.0);
+            m_tableData.resize(m_numOfRows * (m_numOfColumns + numOfAddColumns));
         }
 
     private:

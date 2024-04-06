@@ -67,7 +67,7 @@ namespace DataContainers::TableUtils {
 }
 
 template<class TableType>
-requires std::is_base_of_v<DataContainers::TableTraits::TableTag, TableType>
+requires std::is_base_of_v<DataContainers::TableTraits::TableTag, std::remove_reference_t<TableType>>
 std::ostream& operator<<(std::ostream &out, TableType&& table)
 {
     for (int i = 0; i < table.GetNumOfRows(); ++i)
