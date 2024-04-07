@@ -8,7 +8,7 @@
 namespace MachineLearning::DecisionTrees {
     class DecisionTreeRegressor : public RegressionModel {
     public:
-        explicit DecisionTreeRegressor(int maxDepth = 5, int minSampleSize = 20);
+        explicit DecisionTreeRegressor(int maxDepth = 5, int minSampleSize = 20, double proportionOfFeaturesUsed = 1.0);
         ~DecisionTreeRegressor() override = default;
 
         void Fit(const Datasets::SupervisedLearningDatasetView<double>& trainingDataset) override;
@@ -27,13 +27,14 @@ namespace MachineLearning::DecisionTrees {
             Datasets::SupervisedLearningDatasetView<double> RightNodeDataset;
         };
 
-        DecisionTreeRegressor(int maxDepth, int minSampleSize, int depth);
+        DecisionTreeRegressor(int maxDepth, int minSampleSize, double proportionOfFeaturesUsed, int depth);
 
         void FitImpl(const Datasets::SupervisedLearningDatasetView<double>& trainingDataset, int numOfAvailableThreads);
 
         [[nodiscard]] static std::vector<double> GetMeanObservations(const DataContainers::TableView<double>& observations);
         [[nodiscard]] double GetMSE(const DataContainers::TableView<double>& observations) const;
         [[nodiscard]] static std::vector<double> GetMovingAverage(const std::vector<double>& column, std::vector<int> sortedColumnElemIndexes);
+        [[nodiscard]] std::vector<int> GetRandomSubsetOfFeatures(int numOfFeatures) const;
 
         [[nodiscard]] SplittingParameters GetSplittingParameters(const Datasets::SupervisedLearningDatasetView<double>& trainingDataset) const;
         [[nodiscard]] ChildNodesTrainingDataset SplitTrainingDataset(const Datasets::SupervisedLearningDatasetView<double>& trainingDataset) const;
@@ -43,6 +44,7 @@ namespace MachineLearning::DecisionTrees {
     private:
         const int c_maxDepth;
         const int c_minSampleSize;
+        const double c_proportionOfFeaturesUsed;
         int m_curDepth = 0;
         double m_nodeMse = 0.0;
         std::vector<double> m_meanObservations;

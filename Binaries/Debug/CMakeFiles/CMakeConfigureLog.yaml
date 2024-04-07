@@ -4,16 +4,16 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
       The system is: Linux - 6.8.2-zen2-1-zen - x86_64
   -
     kind: "message-v1"
     backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
@@ -28,14 +28,14 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/3.27.8/CompilerIdC/a.out
+        /home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/3.28.1/CompilerIdC/a.out
       
   -
     kind: "message-v1"
     backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
@@ -50,19 +50,19 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/3.27.8/CompilerIdCXX/a.out
+        /home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/3.28.1/CompilerIdCXX/a.out
       
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-Ebmx1P"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-Ebmx1P"
+      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-SGoCZZ"
+      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-SGoCZZ"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,10 +71,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-Ebmx1P'
+        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-SGoCZZ'
         
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_9e476
-        [1/2] /usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_9e476.dir/CMakeCCompilerABI.c.o -c /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/ninja/linux/x64/ninja -v cmTC_afae7
+        [1/2] /usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_afae7.dir/CMakeCCompilerABI.c.o -c /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         Target: x86_64-pc-linux-gnu
@@ -82,8 +82,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.2.1 20230801 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9e476.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9e476.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9e476.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccFZQ2QJ.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_afae7.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_afae7.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_afae7.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/cciu6jJx.s
         GNU C17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 13.2.1 20230801, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -97,13 +97,13 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: eb0b45108af02c02a078961940bce3e9
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9e476.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9e476.dir/'
-         as -v --64 -o CMakeFiles/cmTC_9e476.dir/CMakeCCompilerABI.c.o /tmp/ccFZQ2QJ.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_afae7.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_afae7.dir/'
+         as -v --64 -o CMakeFiles/cmTC_afae7.dir/CMakeCCompilerABI.c.o /tmp/cciu6jJx.s
         GNU assembler version 2.42.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.42.0
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9e476.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9e476.dir/CMakeCCompilerABI.c.'
-        [2/2] : && /usr/bin/cc  -v CMakeFiles/cmTC_9e476.dir/CMakeCCompilerABI.c.o -o cmTC_9e476   && :
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_afae7.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_afae7.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /usr/bin/cc  -v CMakeFiles/cmTC_afae7.dir/CMakeCCompilerABI.c.o -o cmTC_afae7   && :
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper
@@ -114,16 +114,16 @@ events:
         gcc version 13.2.1 20230801 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9e476' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9e476.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cctyoKGY.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9e476 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_9e476.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9e476' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9e476.'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_afae7' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_afae7.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc43wipd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_afae7 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_afae7.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_afae7' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_afae7.'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
@@ -144,16 +144,16 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-Ebmx1P']
+        ignore line: [Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-SGoCZZ']
         ignore line: []
-        ignore line: [Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_9e476]
-        ignore line: [[1/2] /usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_9e476.dir/CMakeCCompilerABI.c.o -c /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/ninja/linux/x64/ninja -v cmTC_afae7]
+        ignore line: [[1/2] /usr/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_afae7.dir/CMakeCCompilerABI.c.o -c /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -161,8 +161,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.2.1 20230801 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9e476.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9e476.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9e476.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccFZQ2QJ.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_afae7.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_afae7.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_afae7.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/cciu6jJx.s]
         ignore line: [GNU C17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.2.1 20230801  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -176,13 +176,13 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: eb0b45108af02c02a078961940bce3e9]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9e476.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9e476.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_9e476.dir/CMakeCCompilerABI.c.o /tmp/ccFZQ2QJ.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_afae7.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_afae7.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_afae7.dir/CMakeCCompilerABI.c.o /tmp/cciu6jJx.s]
         ignore line: [GNU assembler version 2.42.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.42.0]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9e476.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9e476.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] : && /usr/bin/cc  -v CMakeFiles/cmTC_9e476.dir/CMakeCCompilerABI.c.o -o cmTC_9e476   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_afae7.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_afae7.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /usr/bin/cc  -v CMakeFiles/cmTC_afae7.dir/CMakeCCompilerABI.c.o -o cmTC_afae7   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper]
@@ -193,13 +193,13 @@ events:
         ignore line: [gcc version 13.2.1 20230801 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9e476' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9e476.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cctyoKGY.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9e476 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_9e476.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_afae7' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_afae7.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc43wipd.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_afae7 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_afae7.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cctyoKGY.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc43wipd.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -214,7 +214,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_9e476] ==> ignore
+          arg [cmTC_afae7] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o]
@@ -223,7 +223,7 @@ events:
           arg [-L/lib/../lib] ==> dir [/lib/../lib]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..]
-          arg [CMakeFiles/cmTC_9e476.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_afae7.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -254,14 +254,14 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-TsB1Es"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-TsB1Es"
+      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-VAYun3"
+      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-VAYun3"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -270,10 +270,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-TsB1Es'
+        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-VAYun3'
         
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_38b6e
-        [1/2] /usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_38b6e.dir/CMakeCXXCompilerABI.cpp.o -c /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/ninja/linux/x64/ninja -v cmTC_ff1e9
+        [1/2] /usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_ff1e9.dir/CMakeCXXCompilerABI.cpp.o -c /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         Target: x86_64-pc-linux-gnu
@@ -281,8 +281,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.2.1 20230801 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_38b6e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_38b6e.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_38b6e.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccLyKlmX.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ff1e9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ff1e9.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ff1e9.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/cc16iYFd.s
         GNU C++17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 13.2.1 20230801, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -299,13 +299,13 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: f089b864c6bcbc2427e9850aa6414a11
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_38b6e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_38b6e.dir/'
-         as -v --64 -o CMakeFiles/cmTC_38b6e.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccLyKlmX.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ff1e9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ff1e9.dir/'
+         as -v --64 -o CMakeFiles/cmTC_ff1e9.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc16iYFd.s
         GNU assembler version 2.42.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.42.0
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_38b6e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_38b6e.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] : && /usr/bin/c++  -v CMakeFiles/cmTC_38b6e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_38b6e   && :
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ff1e9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ff1e9.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /usr/bin/c++  -v CMakeFiles/cmTC_ff1e9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ff1e9   && :
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper
@@ -316,16 +316,16 @@ events:
         gcc version 13.2.1 20230801 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_38b6e' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_38b6e.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cchjL1r2.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_38b6e /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_38b6e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_38b6e' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_38b6e.'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ff1e9' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ff1e9.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccM0e9Rd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ff1e9 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_ff1e9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ff1e9' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ff1e9.'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
@@ -352,16 +352,16 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-TsB1Es']
+        ignore line: [Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-VAYun3']
         ignore line: []
-        ignore line: [Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_38b6e]
-        ignore line: [[1/2] /usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_38b6e.dir/CMakeCXXCompilerABI.cpp.o -c /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/ninja/linux/x64/ninja -v cmTC_ff1e9]
+        ignore line: [[1/2] /usr/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_ff1e9.dir/CMakeCXXCompilerABI.cpp.o -c /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -369,8 +369,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.2.1 20230801 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_38b6e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_38b6e.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_38b6e.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/ccLyKlmX.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ff1e9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ff1e9.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ff1e9.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o /tmp/cc16iYFd.s]
         ignore line: [GNU C++17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.2.1 20230801  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -387,13 +387,13 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: f089b864c6bcbc2427e9850aa6414a11]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_38b6e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_38b6e.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_38b6e.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccLyKlmX.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ff1e9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ff1e9.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_ff1e9.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc16iYFd.s]
         ignore line: [GNU assembler version 2.42.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.42.0]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_38b6e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_38b6e.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] : && /usr/bin/c++  -v CMakeFiles/cmTC_38b6e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_38b6e   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ff1e9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_ff1e9.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /usr/bin/c++  -v CMakeFiles/cmTC_ff1e9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_ff1e9   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper]
@@ -404,13 +404,13 @@ events:
         ignore line: [gcc version 13.2.1 20230801 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_38b6e' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_38b6e.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cchjL1r2.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_38b6e /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_38b6e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ff1e9' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ff1e9.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccM0e9Rd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ff1e9 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_ff1e9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cchjL1r2.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccM0e9Rd.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -425,7 +425,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_38b6e] ==> ignore
+          arg [cmTC_ff1e9] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o]
@@ -434,7 +434,7 @@ events:
           arg [-L/lib/../lib] ==> dir [/lib/../lib]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..]
-          arg [CMakeFiles/cmTC_38b6e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_ff1e9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -461,8 +461,8 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
       - "CMakeLists.txt:5 (check_ipo_supported)"
     directories:
       source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src"
@@ -473,18 +473,18 @@ events:
       stdout: |
         Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin'
         
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp'
-        [2/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.o && "/usr/bin/gcc-ranlib" libfoo.a && :
+        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/ninja/linux/x64/ninja -v
+        [1/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp'
+        [2/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp'
+        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.o && "/usr/bin/gcc-ranlib" libfoo.a && :
         [4/4] : && /usr/bin/c++ -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a && :
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
       - "CMakeLists.txt:5 (check_ipo_supported)"
     directories:
       source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src"
@@ -495,23 +495,23 @@ events:
       stdout: |
         Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin'
         
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
+        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/ninja/linux/x64/ninja -v
         [1/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/foo.c'
         [2/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/main.c'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/gcc-ranlib" libfoo.a && :
+        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/gcc-ranlib" libfoo.a && :
         [4/4] : && /usr/bin/cc -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindOpenMP.cmake:485 (_OPENMP_GET_FLAGS)"
-      - "CMakeLists.txt:24 (find_package)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:26 (find_package)"
     description: "Detecting C OpenMP compiler info"
     directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-6Y1SI5"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-6Y1SI5"
+      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-Mtamlz"
+      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-Mtamlz"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -520,10 +520,10 @@ events:
       variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
       cached: true
       stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-6Y1SI5'
+        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-Mtamlz'
         
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_9892b
-        [1/2] /usr/bin/cc   -fopenmp -v -fdiagnostics-color=always -o CMakeFiles/cmTC_9892b.dir/OpenMPTryFlag.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-6Y1SI5/OpenMPTryFlag.c'
+        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/ninja/linux/x64/ninja -v cmTC_26c9f
+        [1/2] /usr/bin/cc   -fopenmp -v -fdiagnostics-color=always -o CMakeFiles/cmTC_26c9f.dir/OpenMPTryFlag.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-Mtamlz/OpenMPTryFlag.c'
         Используются внутренние спецификации.
         COLLECT_GCC=/usr/bin/cc
         Целевая архитектура: x86_64-pc-linux-gnu
@@ -531,8 +531,8 @@ events:
         Модель многопоточности: posix
         Supported LTO compression algorithms: zlib zstd
         gcc версия 13.2.1 20230801 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_9892b.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_9892b.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v -D_REENTRANT /home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-6Y1SI5/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_9892b.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fopenmp -o /tmp/ccVA0oEg.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_26c9f.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_26c9f.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v -D_REENTRANT /home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-Mtamlz/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_26c9f.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fopenmp -o /tmp/ccGqo5us.s
         GNU C17 (GCC) версия 13.2.1 20230801 (x86_64-pc-linux-gnu)
         	скомпилировано GNU C версия 13.2.1 20230801, Версия GMP 6.3.0, версия MPFR 4.2.1, версия MPC 1.3.1, версия isl isl-0.26-GMP
         
@@ -547,13 +547,13 @@ events:
          /usr/include
         Конец списка поиска.
         Compiler executable checksum: eb0b45108af02c02a078961940bce3e9
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_9892b.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_9892b.dir/'
-         as -v --64 -o CMakeFiles/cmTC_9892b.dir/OpenMPTryFlag.c.o /tmp/ccVA0oEg.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_26c9f.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_26c9f.dir/'
+         as -v --64 -o CMakeFiles/cmTC_26c9f.dir/OpenMPTryFlag.c.o /tmp/ccGqo5us.s
         GNU ассемблер, версия 2.42.0 (x86_64-pc-linux-gnu); используется BFD версии (GNU Binutils) 2.42.0
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_9892b.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_9892b.dir/OpenMPTryFlag.c.'
-        [2/2] : && /usr/bin/cc -fopenmp -v -fsanitize=address -fsanitize=leak -fsanitize=undefined CMakeFiles/cmTC_9892b.dir/OpenMPTryFlag.c.o -o cmTC_9892b  -v && :
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_26c9f.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_26c9f.dir/OpenMPTryFlag.c.'
+        [2/2] : && /usr/bin/cc -fopenmp -v -fsanitize=address -fsanitize=leak -fsanitize=undefined CMakeFiles/cmTC_26c9f.dir/OpenMPTryFlag.c.o -o cmTC_26c9f  -v && :
         Используются внутренние спецификации.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper
@@ -565,24 +565,24 @@ events:
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
         Спецификации прочитаны из /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/libgomp.spec
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-o' 'cmTC_9892b' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_9892b.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6UvekG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9892b /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/libasan_preinit.o -lasan CMakeFiles/cmTC_9892b.dir/OpenMPTryFlag.c.o -lgomp -lubsan -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
-        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-o' 'cmTC_9892b' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_9892b.'
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-o' 'cmTC_26c9f' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_26c9f.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnna57E.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_26c9f /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/libasan_preinit.o -lasan CMakeFiles/cmTC_26c9f.dir/OpenMPTryFlag.c.o -lgomp -lubsan -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-o' 'cmTC_26c9f' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_26c9f.'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindOpenMP.cmake:262 (message)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindOpenMP.cmake:485 (_OPENMP_GET_FLAGS)"
-      - "CMakeLists.txt:24 (find_package)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindOpenMP.cmake:262 (message)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:26 (find_package)"
     message: |
       Parsed C OpenMP implicit link information from above output:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-6Y1SI5']
+        ignore line: [Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-Mtamlz']
         ignore line: []
-        ignore line: [Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_9892b]
-        ignore line: [[1/2] /usr/bin/cc   -fopenmp -v -fdiagnostics-color=always -o CMakeFiles/cmTC_9892b.dir/OpenMPTryFlag.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-6Y1SI5/OpenMPTryFlag.c']
+        ignore line: [Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/ninja/linux/x64/ninja -v cmTC_26c9f]
+        ignore line: [[1/2] /usr/bin/cc   -fopenmp -v -fdiagnostics-color=always -o CMakeFiles/cmTC_26c9f.dir/OpenMPTryFlag.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-Mtamlz/OpenMPTryFlag.c']
         ignore line: [Используются внутренние спецификации.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [Целевая архитектура: x86_64-pc-linux-gnu]
@@ -590,8 +590,8 @@ events:
         ignore line: [Модель многопоточности: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc версия 13.2.1 20230801 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_9892b.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_9892b.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v -D_REENTRANT /home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-6Y1SI5/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_9892b.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fopenmp -o /tmp/ccVA0oEg.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_26c9f.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_26c9f.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v -D_REENTRANT /home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-Mtamlz/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_26c9f.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -fopenmp -o /tmp/ccGqo5us.s]
         ignore line: [GNU C17 (GCC) версия 13.2.1 20230801 (x86_64-pc-linux-gnu)]
         ignore line: [	скомпилировано GNU C версия 13.2.1 20230801  Версия GMP 6.3.0  версия MPFR 4.2.1  версия MPC 1.3.1  версия isl isl-0.26-GMP]
         ignore line: []
@@ -606,14 +606,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [Конец списка поиска.]
         ignore line: [Compiler executable checksum: eb0b45108af02c02a078961940bce3e9]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_9892b.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_9892b.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_9892b.dir/OpenMPTryFlag.c.o /tmp/ccVA0oEg.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_26c9f.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_26c9f.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_26c9f.dir/OpenMPTryFlag.c.o /tmp/ccGqo5us.s]
         ignore line: [GNU ассемблер  версия 2.42.0 (x86_64-pc-linux-gnu)]
         ignore line: [ используется BFD версии (GNU Binutils) 2.42.0]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_9892b.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_9892b.dir/OpenMPTryFlag.c.']
-        ignore line: [[2/2] : && /usr/bin/cc -fopenmp -v -fsanitize=address -fsanitize=leak -fsanitize=undefined CMakeFiles/cmTC_9892b.dir/OpenMPTryFlag.c.o -o cmTC_9892b  -v && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_26c9f.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_26c9f.dir/OpenMPTryFlag.c.']
+        ignore line: [[2/2] : && /usr/bin/cc -fopenmp -v -fsanitize=address -fsanitize=leak -fsanitize=undefined CMakeFiles/cmTC_26c9f.dir/OpenMPTryFlag.c.o -o cmTC_26c9f  -v && :]
         ignore line: [Используются внутренние спецификации.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper]
@@ -625,13 +625,13 @@ events:
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
         ignore line: [Спецификации прочитаны из /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/libgomp.spec]
-        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-o' 'cmTC_9892b' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_9892b.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6UvekG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9892b /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/libasan_preinit.o -lasan CMakeFiles/cmTC_9892b.dir/OpenMPTryFlag.c.o -lgomp -lubsan -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-o' 'cmTC_26c9f' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_26c9f.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnna57E.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_26c9f /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/libasan_preinit.o -lasan CMakeFiles/cmTC_26c9f.dir/OpenMPTryFlag.c.o -lgomp -lubsan -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc6UvekG.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccnna57E.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -647,14 +647,14 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_9892b] ==> ignore
+          arg [cmTC_26c9f] ==> ignore
           arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1]
           arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib]
           arg [-L/lib/../lib] ==> dir [/lib/../lib]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..]
           arg [-lasan] ==> lib [asan]
-          arg [CMakeFiles/cmTC_9892b.dir/OpenMPTryFlag.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_26c9f.dir/OpenMPTryFlag.c.o] ==> ignore
           arg [-lgomp] ==> lib [gomp]
           arg [-lubsan] ==> lib [ubsan]
           arg [-lgcc] ==> lib [gcc]
@@ -683,13 +683,13 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindOpenMP.cmake:485 (_OPENMP_GET_FLAGS)"
-      - "CMakeLists.txt:24 (find_package)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:26 (find_package)"
     description: "Detecting CXX OpenMP compiler info"
     directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-y8e5KC"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-y8e5KC"
+      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-CwMA6s"
+      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-CwMA6s"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Werror -D PrintTrainingTime -fsanitize=address -fsanitize=leak -fsanitize=undefined"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -698,10 +698,10 @@ events:
       variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
       cached: true
       stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-y8e5KC'
+        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-CwMA6s'
         
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_8d181
-        [1/2] /usr/bin/c++   -Wall -Werror -D PrintTrainingTime -fsanitize=address -fsanitize=leak -fsanitize=undefined -fopenmp -v -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles/cmTC_8d181.dir/OpenMPTryFlag.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-y8e5KC/OpenMPTryFlag.cpp'
+        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/ninja/linux/x64/ninja -v cmTC_6b08c
+        [1/2] /usr/bin/c++   -Wall -Werror -D PrintTrainingTime -fsanitize=address -fsanitize=leak -fsanitize=undefined -fopenmp -v -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles/cmTC_6b08c.dir/OpenMPTryFlag.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-CwMA6s/OpenMPTryFlag.cpp'
         Используются внутренние спецификации.
         COLLECT_GCC=/usr/bin/c++
         Целевая архитектура: x86_64-pc-linux-gnu
@@ -709,8 +709,8 @@ events:
         Модель многопоточности: posix
         Supported LTO compression algorithms: zlib zstd
         gcc версия 13.2.1 20230801 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-Wall' '-Werror' '-D' 'PrintTrainingTime' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-fopenmp' '-v' '-std=gnu++23' '-o' 'CMakeFiles/cmTC_8d181.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_8d181.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT -D PrintTrainingTime /home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-y8e5KC/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_8d181.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -Wall -Werror -std=gnu++23 -version -fdiagnostics-color=always -fsanitize=address -fsanitize=leak -fsanitize=undefined -fopenmp -o /tmp/ccOO8aoe.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-Wall' '-Werror' '-D' 'PrintTrainingTime' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-fopenmp' '-v' '-std=gnu++23' '-o' 'CMakeFiles/cmTC_6b08c.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_6b08c.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT -D PrintTrainingTime /home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-CwMA6s/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_6b08c.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -Wall -Werror -std=gnu++23 -version -fdiagnostics-color=always -fsanitize=address -fsanitize=leak -fsanitize=undefined -fopenmp -o /tmp/ccQYWUYY.s
         GNU C++23 (GCC) версия 13.2.1 20230801 (x86_64-pc-linux-gnu)
         	скомпилировано GNU C версия 13.2.1 20230801, Версия GMP 6.3.0, версия MPFR 4.2.1, версия MPC 1.3.1, версия isl isl-0.26-GMP
         
@@ -728,13 +728,13 @@ events:
          /usr/include
         Конец списка поиска.
         Compiler executable checksum: f089b864c6bcbc2427e9850aa6414a11
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-Wall' '-Werror' '-D' 'PrintTrainingTime' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-fopenmp' '-v' '-std=gnu++23' '-o' 'CMakeFiles/cmTC_8d181.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_8d181.dir/'
-         as -v --64 -o CMakeFiles/cmTC_8d181.dir/OpenMPTryFlag.cpp.o /tmp/ccOO8aoe.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-Wall' '-Werror' '-D' 'PrintTrainingTime' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-fopenmp' '-v' '-std=gnu++23' '-o' 'CMakeFiles/cmTC_6b08c.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_6b08c.dir/'
+         as -v --64 -o CMakeFiles/cmTC_6b08c.dir/OpenMPTryFlag.cpp.o /tmp/ccQYWUYY.s
         GNU ассемблер, версия 2.42.0 (x86_64-pc-linux-gnu); используется BFD версии (GNU Binutils) 2.42.0
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-Wall' '-Werror' '-D' 'PrintTrainingTime' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-fopenmp' '-v' '-std=gnu++23' '-o' 'CMakeFiles/cmTC_8d181.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_8d181.dir/OpenMPTryFlag.cpp.'
-        [2/2] : && /usr/bin/c++ -Wall -Werror -D PrintTrainingTime -fsanitize=address -fsanitize=leak -fsanitize=undefined -fopenmp -v -fsanitize=address -fsanitize=leak -fsanitize=undefined CMakeFiles/cmTC_8d181.dir/OpenMPTryFlag.cpp.o -o cmTC_8d181  -v && :
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-Wall' '-Werror' '-D' 'PrintTrainingTime' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-fopenmp' '-v' '-std=gnu++23' '-o' 'CMakeFiles/cmTC_6b08c.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_6b08c.dir/OpenMPTryFlag.cpp.'
+        [2/2] : && /usr/bin/c++ -Wall -Werror -D PrintTrainingTime -fsanitize=address -fsanitize=leak -fsanitize=undefined -fopenmp -v -fsanitize=address -fsanitize=leak -fsanitize=undefined CMakeFiles/cmTC_6b08c.dir/OpenMPTryFlag.cpp.o -o cmTC_6b08c  -v && :
         Используются внутренние спецификации.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper
@@ -746,24 +746,24 @@ events:
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
         Спецификации прочитаны из /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/libgomp.spec
-        COLLECT_GCC_OPTIONS='-Wall' '-Werror' '-D' 'PrintTrainingTime' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-fopenmp' '-v' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-o' 'cmTC_8d181' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_8d181.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTcJ7Sg.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_8d181 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/libasan_preinit.o -lasan CMakeFiles/cmTC_8d181.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lubsan -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
-        COLLECT_GCC_OPTIONS='-Wall' '-Werror' '-D' 'PrintTrainingTime' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-fopenmp' '-v' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-o' 'cmTC_8d181' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_8d181.'
+        COLLECT_GCC_OPTIONS='-Wall' '-Werror' '-D' 'PrintTrainingTime' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-fopenmp' '-v' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-o' 'cmTC_6b08c' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_6b08c.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVAYd5G.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_6b08c /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/libasan_preinit.o -lasan CMakeFiles/cmTC_6b08c.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lubsan -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-Wall' '-Werror' '-D' 'PrintTrainingTime' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-fopenmp' '-v' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-o' 'cmTC_6b08c' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_6b08c.'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindOpenMP.cmake:262 (message)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindOpenMP.cmake:485 (_OPENMP_GET_FLAGS)"
-      - "CMakeLists.txt:24 (find_package)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindOpenMP.cmake:262 (message)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:26 (find_package)"
     message: |
       Parsed CXX OpenMP implicit link information from above output:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-y8e5KC']
+        ignore line: [Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-CwMA6s']
         ignore line: []
-        ignore line: [Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_8d181]
-        ignore line: [[1/2] /usr/bin/c++   -Wall -Werror -D PrintTrainingTime -fsanitize=address -fsanitize=leak -fsanitize=undefined -fopenmp -v -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles/cmTC_8d181.dir/OpenMPTryFlag.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-y8e5KC/OpenMPTryFlag.cpp']
+        ignore line: [Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/ninja/linux/x64/ninja -v cmTC_6b08c]
+        ignore line: [[1/2] /usr/bin/c++   -Wall -Werror -D PrintTrainingTime -fsanitize=address -fsanitize=leak -fsanitize=undefined -fopenmp -v -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles/cmTC_6b08c.dir/OpenMPTryFlag.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-CwMA6s/OpenMPTryFlag.cpp']
         ignore line: [Используются внутренние спецификации.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [Целевая архитектура: x86_64-pc-linux-gnu]
@@ -771,8 +771,8 @@ events:
         ignore line: [Модель многопоточности: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc версия 13.2.1 20230801 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-Wall' '-Werror' '-D' 'PrintTrainingTime' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-fopenmp' '-v' '-std=gnu++23' '-o' 'CMakeFiles/cmTC_8d181.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_8d181.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT -D PrintTrainingTime /home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-y8e5KC/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_8d181.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -Wall -Werror -std=gnu++23 -version -fdiagnostics-color=always -fsanitize=address -fsanitize=leak -fsanitize=undefined -fopenmp -o /tmp/ccOO8aoe.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-Wall' '-Werror' '-D' 'PrintTrainingTime' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-fopenmp' '-v' '-std=gnu++23' '-o' 'CMakeFiles/cmTC_6b08c.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_6b08c.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1plus -quiet -v -D_GNU_SOURCE -D_REENTRANT -D PrintTrainingTime /home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-CwMA6s/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_6b08c.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -Wall -Werror -std=gnu++23 -version -fdiagnostics-color=always -fsanitize=address -fsanitize=leak -fsanitize=undefined -fopenmp -o /tmp/ccQYWUYY.s]
         ignore line: [GNU C++23 (GCC) версия 13.2.1 20230801 (x86_64-pc-linux-gnu)]
         ignore line: [	скомпилировано GNU C версия 13.2.1 20230801  Версия GMP 6.3.0  версия MPFR 4.2.1  версия MPC 1.3.1  версия isl isl-0.26-GMP]
         ignore line: []
@@ -790,14 +790,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [Конец списка поиска.]
         ignore line: [Compiler executable checksum: f089b864c6bcbc2427e9850aa6414a11]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-Wall' '-Werror' '-D' 'PrintTrainingTime' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-fopenmp' '-v' '-std=gnu++23' '-o' 'CMakeFiles/cmTC_8d181.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_8d181.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_8d181.dir/OpenMPTryFlag.cpp.o /tmp/ccOO8aoe.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-Wall' '-Werror' '-D' 'PrintTrainingTime' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-fopenmp' '-v' '-std=gnu++23' '-o' 'CMakeFiles/cmTC_6b08c.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_6b08c.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_6b08c.dir/OpenMPTryFlag.cpp.o /tmp/ccQYWUYY.s]
         ignore line: [GNU ассемблер  версия 2.42.0 (x86_64-pc-linux-gnu)]
         ignore line: [ используется BFD версии (GNU Binutils) 2.42.0]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-Wall' '-Werror' '-D' 'PrintTrainingTime' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-fopenmp' '-v' '-std=gnu++23' '-o' 'CMakeFiles/cmTC_8d181.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_8d181.dir/OpenMPTryFlag.cpp.']
-        ignore line: [[2/2] : && /usr/bin/c++ -Wall -Werror -D PrintTrainingTime -fsanitize=address -fsanitize=leak -fsanitize=undefined -fopenmp -v -fsanitize=address -fsanitize=leak -fsanitize=undefined CMakeFiles/cmTC_8d181.dir/OpenMPTryFlag.cpp.o -o cmTC_8d181  -v && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-Wall' '-Werror' '-D' 'PrintTrainingTime' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-fopenmp' '-v' '-std=gnu++23' '-o' 'CMakeFiles/cmTC_6b08c.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_6b08c.dir/OpenMPTryFlag.cpp.']
+        ignore line: [[2/2] : && /usr/bin/c++ -Wall -Werror -D PrintTrainingTime -fsanitize=address -fsanitize=leak -fsanitize=undefined -fopenmp -v -fsanitize=address -fsanitize=leak -fsanitize=undefined CMakeFiles/cmTC_6b08c.dir/OpenMPTryFlag.cpp.o -o cmTC_6b08c  -v && :]
         ignore line: [Используются внутренние спецификации.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper]
@@ -809,13 +809,13 @@ events:
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
         ignore line: [Спецификации прочитаны из /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/libgomp.spec]
-        ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-Werror' '-D' 'PrintTrainingTime' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-fopenmp' '-v' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-o' 'cmTC_8d181' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_8d181.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTcJ7Sg.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_8d181 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/libasan_preinit.o -lasan CMakeFiles/cmTC_8d181.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lubsan -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-Wall' '-Werror' '-D' 'PrintTrainingTime' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-fopenmp' '-v' '-fsanitize=address' '-fsanitize=leak' '-fsanitize=undefined' '-o' 'cmTC_6b08c' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_6b08c.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVAYd5G.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_6b08c /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/libasan_preinit.o -lasan CMakeFiles/cmTC_6b08c.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lubsan -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccTcJ7Sg.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccVAYd5G.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -831,14 +831,14 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_8d181] ==> ignore
+          arg [cmTC_6b08c] ==> ignore
           arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1]
           arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib]
           arg [-L/lib/../lib] ==> dir [/lib/../lib]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..]
           arg [-lasan] ==> lib [asan]
-          arg [CMakeFiles/cmTC_8d181.dir/OpenMPTryFlag.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_6b08c.dir/OpenMPTryFlag.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgomp] ==> lib [gomp]
@@ -863,13 +863,13 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindOpenMP.cmake:419 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindOpenMP.cmake:559 (_OPENMP_GET_SPEC_DATE)"
-      - "CMakeLists.txt:24 (find_package)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindOpenMP.cmake:420 (try_compile)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindOpenMP.cmake:560 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:26 (find_package)"
     description: "Detecting C OpenMP version"
     directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-4imuCS"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-4imuCS"
+      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-agzDP0"
+      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-agzDP0"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -878,23 +878,23 @@ events:
       variable: "OpenMP_SPECTEST_C_"
       cached: true
       stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-4imuCS'
+        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-agzDP0'
         
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_416b6
-        [1/2] /usr/bin/cc   -fopenmp -fdiagnostics-color=always -o CMakeFiles/cmTC_416b6.dir/OpenMPCheckVersion.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-4imuCS/OpenMPCheckVersion.c'
-        [2/2] : && /usr/bin/cc -fopenmp -fsanitize=address -fsanitize=leak -fsanitize=undefined CMakeFiles/cmTC_416b6.dir/OpenMPCheckVersion.c.o -o cmTC_416b6   && :
+        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/ninja/linux/x64/ninja -v cmTC_78615
+        [1/2] /usr/bin/cc   -fopenmp -fdiagnostics-color=always -o CMakeFiles/cmTC_78615.dir/OpenMPCheckVersion.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-agzDP0/OpenMPCheckVersion.c'
+        [2/2] : && /usr/bin/cc -fopenmp -fsanitize=address -fsanitize=leak -fsanitize=undefined CMakeFiles/cmTC_78615.dir/OpenMPCheckVersion.c.o -o cmTC_78615   && :
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindOpenMP.cmake:419 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindOpenMP.cmake:559 (_OPENMP_GET_SPEC_DATE)"
-      - "CMakeLists.txt:24 (find_package)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindOpenMP.cmake:420 (try_compile)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/FindOpenMP.cmake:560 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:26 (find_package)"
     description: "Detecting CXX OpenMP version"
     directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-2zGysn"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-2zGysn"
+      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-oMAVQN"
+      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-oMAVQN"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -Wall -Werror -D PrintTrainingTime -fsanitize=address -fsanitize=leak -fsanitize=undefined"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -903,11 +903,11 @@ events:
       variable: "OpenMP_SPECTEST_CXX_"
       cached: true
       stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-2zGysn'
+        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-oMAVQN'
         
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v cmTC_a942a
-        [1/2] /usr/bin/c++   -Wall -Werror -D PrintTrainingTime -fsanitize=address -fsanitize=leak -fsanitize=undefined -fopenmp -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles/cmTC_a942a.dir/OpenMPCheckVersion.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-2zGysn/OpenMPCheckVersion.cpp'
-        [2/2] : && /usr/bin/c++ -Wall -Werror -D PrintTrainingTime -fsanitize=address -fsanitize=leak -fsanitize=undefined -fopenmp -fsanitize=address -fsanitize=leak -fsanitize=undefined CMakeFiles/cmTC_a942a.dir/OpenMPCheckVersion.cpp.o -o cmTC_a942a   && :
+        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/ninja/linux/x64/ninja -v cmTC_501e9
+        [1/2] /usr/bin/c++   -Wall -Werror -D PrintTrainingTime -fsanitize=address -fsanitize=leak -fsanitize=undefined -fopenmp -std=gnu++23 -fdiagnostics-color=always -o CMakeFiles/cmTC_501e9.dir/OpenMPCheckVersion.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/CMakeScratch/TryCompile-oMAVQN/OpenMPCheckVersion.cpp'
+        [2/2] : && /usr/bin/c++ -Wall -Werror -D PrintTrainingTime -fsanitize=address -fsanitize=leak -fsanitize=undefined -fopenmp -fsanitize=address -fsanitize=leak -fsanitize=undefined CMakeFiles/cmTC_501e9.dir/OpenMPCheckVersion.cpp.o -o cmTC_501e9   && :
         
       exitCode: 0
 ...
@@ -917,8 +917,8 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
       - "CMakeLists.txt:5 (check_ipo_supported)"
     directories:
       source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src"
@@ -929,18 +929,18 @@ events:
       stdout: |
         Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin'
         
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
+        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/ninja/linux/x64/ninja -v
         [1/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp'
         [2/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.o && "/usr/bin/gcc-ranlib" libfoo.a && :
+        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.o && "/usr/bin/gcc-ranlib" libfoo.a && :
         [4/4] : && /usr/bin/c++ -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a && :
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
       - "CMakeLists.txt:5 (check_ipo_supported)"
     directories:
       source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src"
@@ -951,10 +951,10 @@ events:
       stdout: |
         Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin'
         
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
+        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/ninja/linux/x64/ninja -v
         [1/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/main.c'
         [2/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/foo.c'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/gcc-ranlib" libfoo.a && :
+        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/gcc-ranlib" libfoo.a && :
         [4/4] : && /usr/bin/cc -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
         
       exitCode: 0
@@ -965,8 +965,8 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
       - "CMakeLists.txt:5 (check_ipo_supported)"
     directories:
       source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src"
@@ -977,18 +977,18 @@ events:
       stdout: |
         Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin'
         
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
+        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/ninja/linux/x64/ninja -v
         [1/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp'
         [2/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.o && "/usr/bin/gcc-ranlib" libfoo.a && :
+        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.o && "/usr/bin/gcc-ranlib" libfoo.a && :
         [4/4] : && /usr/bin/c++ -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a && :
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/share/cmake-3.28/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
       - "CMakeLists.txt:5 (check_ipo_supported)"
     directories:
       source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src"
@@ -999,634 +999,10 @@ events:
       stdout: |
         Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin'
         
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/foo.c'
-        [2/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/main.c'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/gcc-ranlib" libfoo.a && :
-        [4/4] : && /usr/bin/cc -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:5 (check_ipo_supported)"
-    directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin'
-        
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp'
-        [2/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.o && "/usr/bin/gcc-ranlib" libfoo.a && :
-        [4/4] : && /usr/bin/c++ -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:5 (check_ipo_supported)"
-    directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin'
-        
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/foo.c'
-        [2/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/main.c'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/gcc-ranlib" libfoo.a && :
-        [4/4] : && /usr/bin/cc -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:5 (check_ipo_supported)"
-    directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin'
-        
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp'
-        [2/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.o && "/usr/bin/gcc-ranlib" libfoo.a && :
-        [4/4] : && /usr/bin/c++ -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:5 (check_ipo_supported)"
-    directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin'
-        
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/foo.c'
-        [2/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/main.c'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/gcc-ranlib" libfoo.a && :
-        [4/4] : && /usr/bin/cc -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:5 (check_ipo_supported)"
-    directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin'
-        
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp'
-        [2/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.o && "/usr/bin/gcc-ranlib" libfoo.a && :
-        [4/4] : && /usr/bin/c++ -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:5 (check_ipo_supported)"
-    directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin'
-        
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
+        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/ninja/linux/x64/ninja -v
         [1/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/main.c'
         [2/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/foo.c'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/gcc-ranlib" libfoo.a && :
-        [4/4] : && /usr/bin/cc -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:5 (check_ipo_supported)"
-    directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin'
-        
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp'
-        [2/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.o && "/usr/bin/gcc-ranlib" libfoo.a && :
-        [4/4] : && /usr/bin/c++ -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:5 (check_ipo_supported)"
-    directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin'
-        
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/foo.c'
-        [2/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/main.c'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/gcc-ranlib" libfoo.a && :
-        [4/4] : && /usr/bin/cc -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:5 (check_ipo_supported)"
-    directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin'
-        
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp'
-        [2/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.o && "/usr/bin/gcc-ranlib" libfoo.a && :
-        [4/4] : && /usr/bin/c++ -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:5 (check_ipo_supported)"
-    directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin'
-        
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/main.c'
-        [2/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/foo.c'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/gcc-ranlib" libfoo.a && :
-        [4/4] : && /usr/bin/cc -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:5 (check_ipo_supported)"
-    directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin'
-        
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp'
-        [2/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.o && "/usr/bin/gcc-ranlib" libfoo.a && :
-        [4/4] : && /usr/bin/c++ -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:5 (check_ipo_supported)"
-    directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin'
-        
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/foo.c'
-        [2/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/main.c'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/gcc-ranlib" libfoo.a && :
-        [4/4] : && /usr/bin/cc -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:5 (check_ipo_supported)"
-    directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin'
-        
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp'
-        [2/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.o && "/usr/bin/gcc-ranlib" libfoo.a && :
-        [4/4] : && /usr/bin/c++ -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:5 (check_ipo_supported)"
-    directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin'
-        
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/foo.c'
-        [2/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/main.c'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/gcc-ranlib" libfoo.a && :
-        [4/4] : && /usr/bin/cc -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:5 (check_ipo_supported)"
-    directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin'
-        
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp'
-        [2/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.o && "/usr/bin/gcc-ranlib" libfoo.a && :
-        [4/4] : && /usr/bin/c++ -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:5 (check_ipo_supported)"
-    directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin'
-        
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/foo.c'
-        [2/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/main.c'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/gcc-ranlib" libfoo.a && :
-        [4/4] : && /usr/bin/cc -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:5 (check_ipo_supported)"
-    directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin'
-        
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp'
-        [2/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.o && "/usr/bin/gcc-ranlib" libfoo.a && :
-        [4/4] : && /usr/bin/c++ -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:5 (check_ipo_supported)"
-    directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin'
-        
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/foo.c'
-        [2/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/main.c'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/gcc-ranlib" libfoo.a && :
-        [4/4] : && /usr/bin/cc -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:5 (check_ipo_supported)"
-    directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin'
-        
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp'
-        [2/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.o && "/usr/bin/gcc-ranlib" libfoo.a && :
-        [4/4] : && /usr/bin/c++ -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:5 (check_ipo_supported)"
-    directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin'
-        
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/main.c'
-        [2/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/foo.c'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/gcc-ranlib" libfoo.a && :
-        [4/4] : && /usr/bin/cc -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:5 (check_ipo_supported)"
-    directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin'
-        
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp'
-        [2/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.o && "/usr/bin/gcc-ranlib" libfoo.a && :
-        [4/4] : && /usr/bin/c++ -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:5 (check_ipo_supported)"
-    directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin'
-        
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/foo.c'
-        [2/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/main.c'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/gcc-ranlib" libfoo.a && :
-        [4/4] : && /usr/bin/cc -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:5 (check_ipo_supported)"
-    directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin'
-        
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -o CMakeFiles/foo.dir/foo.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp'
-        [2/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -o CMakeFiles/boo.dir/main.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.o && "/usr/bin/gcc-ranlib" libfoo.a && :
-        [4/4] : && /usr/bin/c++ -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:5 (check_ipo_supported)"
-    directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin'
-        
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -o CMakeFiles/boo.dir/main.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/main.c'
-        [2/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -o CMakeFiles/foo.dir/foo.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/foo.c'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/gcc-ranlib" libfoo.a && :
-        [4/4] : && /usr/bin/cc -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:5 (check_ipo_supported)"
-    directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/bin'
-        
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/foo.cpp'
-        [2/4] /usr/bin/c++   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.cpp.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-CXX/src/main.cpp'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.cpp.o && "/usr/bin/gcc-ranlib" libfoo.a && :
-        [4/4] : && /usr/bin/c++ -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.cpp.o -o boo  libfoo.a && :
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:138 (try_compile)"
-      - "/home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.27/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
-      - "CMakeLists.txt:5 (check_ipo_supported)"
-    directories:
-      source: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src"
-      binary: "/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin"
-    buildResult:
-      variable: "_IPO_LANGUAGE_CHECK_RESULT"
-      cached: true
-      stdout: |
-        Change Dir: '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/bin'
-        
-        Run Build Command(s): /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -v
-        [1/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/foo.dir/foo.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/foo.c'
-        [2/4] /usr/bin/cc   -g -flto=auto -fno-fat-lto-objects -fdiagnostics-color=always -o CMakeFiles/boo.dir/main.c.o -c '/home/daxeponb/Decision tree 2/Binaries/Debug/CMakeFiles/_CMakeLTOTest-C/src/main.c'
-        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/gcc-ranlib" libfoo.a && :
+        [3/4] : && /home/daxeponb/.local/share/JetBrains/Toolbox/apps/clion-2/bin/cmake/linux/x64/bin/cmake -E rm -f libfoo.a && "/usr/bin/gcc-ar" cr libfoo.a  CMakeFiles/foo.dir/foo.c.o && "/usr/bin/gcc-ranlib" libfoo.a && :
         [4/4] : && /usr/bin/cc -g -flto=auto -fno-fat-lto-objects  CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a && :
         
       exitCode: 0

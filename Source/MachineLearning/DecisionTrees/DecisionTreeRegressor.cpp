@@ -3,6 +3,7 @@
 #include <algorithm>
 #include <cmath>
 #include <omp.h>
+#include <random>
 #include <RangesUtils/ToVectorRangeAdaptor.h>
 
 namespace {
@@ -10,14 +11,19 @@ namespace {
 }
 
 namespace MachineLearning::DecisionTrees {
-    DecisionTreeRegressor::DecisionTreeRegressor(int maxDepth, int minSampleSize)
+    DecisionTreeRegressor::DecisionTreeRegressor(int maxDepth, int minSampleSize, double proportionOfFeaturesUsed)
         : c_maxDepth(maxDepth)
         , c_minSampleSize(minSampleSize)
-    {}
+        , c_proportionOfFeaturesUsed(proportionOfFeaturesUsed)
+    {
+        if (proportionOfFeaturesUsed <= 0. || proportionOfFeaturesUsed > 1.)
+            throw std::invalid_argument("Invalid proportion of features used");
+    }
 
-    DecisionTreeRegressor::DecisionTreeRegressor(int maxDepth, int minSampleSize, int depth)
+    DecisionTreeRegressor::DecisionTreeRegressor(int maxDepth, int minSampleSize, double proportionOfFeaturesUsed, int depth)
         : c_maxDepth(maxDepth)
         , c_minSampleSize(minSampleSize)
+        , c_proportionOfFeaturesUsed(proportionOfFeaturesUsed)
         , m_curDepth(depth)
     {}
 
@@ -45,8 +51,8 @@ namespace MachineLearning::DecisionTrees {
 
         auto [leftNodeDataset, rightNodeDataset] = SplitTrainingDataset(trainingDataset);
 
-        m_leftNode.reset(new DecisionTreeRegressor(c_maxDepth, c_minSampleSize, m_curDepth + 1));
-        m_rightNode.reset(new DecisionTreeRegressor(c_maxDepth, c_minSampleSize, m_curDepth + 1));
+        m_leftNode.reset(new DecisionTreeRegressor(c_maxDepth, c_minSampleSize, c_proportionOfFeaturesUsed, m_curDepth + 1));
+        m_rightNode.reset(new DecisionTreeRegressor(c_maxDepth, c_minSampleSize, c_proportionOfFeaturesUsed, m_curDepth + 1));
 
         if (numOfAvailableThreads <= 1)
         {
@@ -125,13 +131,13 @@ namespace MachineLearning::DecisionTrees {
         double bestMse = m_nodeMse;
         SplittingParameters res;
 
-        for (int columnIndex = 0; columnIndex < features.GetNumOfColumns(); ++columnIndex) {
+        for (auto featureIndex : GetRandomSubsetOfFeatures(features.GetNumOfColumns())) {
             std::vector<double> leftMeanSums(observationsMeanSums.size(), 0.0);
             std::vector<double> rightMeanSums(observationsMeanSums);
             int numOfLeftObservations = 0;
             int numOfRightObservations = observations.GetNumOfRows();
 
-            const auto featuresColumn = features.GetColumn(columnIndex) | RangesUtils::to_vector;
+            const auto featuresColumn = features.GetColumn(featureIndex) | RangesUtils::to_vector;
             std::vector<int> rowIndexes(featuresColumn.size());
             std::iota(rowIndexes.begin(), rowIndexes.end(), 0);
             std::ranges::sort(rowIndexes,[&featuresColumn](int a, int b){ return featuresColumn[a] < featuresColumn[b]; });
@@ -153,7 +159,7 @@ namespace MachineLearning::DecisionTrees {
                                                                [numOfRightObservations](double res, double val){ return res + val / numOfRightObservations * val; });
                 const double newMse = observationMeanSquareSum - leftMeanSumSquared - rightMeanSumSquared;
                 if (newMse < bestMse) {
-                    res = {columnIndex, value};
+                    res = {featureIndex, value};
                     bestMse = newMse;
                 }
             }
@@ -208,5 +214,13 @@ namespace MachineLearning::DecisionTrees {
         }
 
         return res;
+    }
+
+    std::vector<int> DecisionTreeRegressor::GetRandomSubsetOfFeatures(int numOfFeatures) const {
+        const auto subsetSize = std::max(1, static_cast<int>((double)numOfFeatures * c_proportionOfFeaturesUsed));
+        std::vector<int> subset(subsetSize);
+        std::ranges::sample(std::ranges::views::iota(0, numOfFeatures), subset.begin(), subsetSize, std::mt19937{std::random_device{}()});
+
+        return subset;
     }
 }

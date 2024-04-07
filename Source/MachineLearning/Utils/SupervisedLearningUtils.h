@@ -12,7 +12,7 @@ namespace MachineLearning::SupervisedLearningUtils {
 
     template<class StoredType>
     TrainingAndTestDatasets<StoredType>
-    SplitDatasetIntoTestAndTraining(const Datasets::SupervisedLearningDataset<StoredType>& dataset, float proportionOfTrainingData) {
+    SplitDatasetIntoTestAndTraining(const Datasets::SupervisedLearningDataset<StoredType>& dataset, double proportionOfTrainingData) {
         if (proportionOfTrainingData <= 0 || proportionOfTrainingData > 1.0)
             throw std::invalid_argument("Invalid proportion of training data");
 

@@ -13,7 +13,7 @@ namespace MachineLearning::TimeSeriesForecastingUtils {
         if (numOfTests <= 0)
             throw std::invalid_argument("Number of tests is less than or equal to zero");
 
-        auto&& [trainingDataset, testDataset] = SupervisedLearningUtils::SplitDatasetIntoTestAndTraining(dataset,1.f - (float)numOfTests / (float)dataset.Features.GetNumOfRows());
+        auto&& [trainingDataset, testDataset] = SupervisedLearningUtils::SplitDatasetIntoTestAndTraining(dataset, 1. - (double)numOfTests / (double)dataset.Features.GetNumOfRows());
         DataContainers::Table<double> predictions(0, trainingDataset.Observations.GetNumOfColumns());
 
     #ifdef PrintTrainingTime
