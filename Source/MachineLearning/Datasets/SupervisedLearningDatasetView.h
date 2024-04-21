@@ -19,7 +19,7 @@ namespace MachineLearning::Datasets {
                 , Observations(observations)
         {}
 
-        SupervisedLearningDatasetView(const SupervisedLearningDataset<StoredType>& dataset)
+        explicit SupervisedLearningDatasetView(const SupervisedLearningDataset<StoredType>& dataset)
                 : Features(dataset.Features)
                 , Observations(dataset.Observations)
         {}

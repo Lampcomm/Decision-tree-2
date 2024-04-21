@@ -2,7 +2,6 @@
 #include <numeric>
 #include <algorithm>
 #include <cmath>
-#include <omp.h>
 #include <random>
 #include <RangesUtils/ToVectorRangeAdaptor.h>
 
@@ -11,19 +10,21 @@ namespace {
 }
 
 namespace MachineLearning::DecisionTrees {
-    DecisionTreeRegressor::DecisionTreeRegressor(int maxDepth, int minSampleSize, double proportionOfFeaturesUsed)
+    DecisionTreeRegressor::DecisionTreeRegressor(int maxDepth, int minSampleSize, double proportionOfFeaturesUsed, int numOfAvailableThreads)
         : c_maxDepth(maxDepth)
         , c_minSampleSize(minSampleSize)
         , c_proportionOfFeaturesUsed(proportionOfFeaturesUsed)
+        , m_numOfAvailableThreads(numOfAvailableThreads)
     {
         if (proportionOfFeaturesUsed <= 0. || proportionOfFeaturesUsed > 1.)
             throw std::invalid_argument("Invalid proportion of features used");
     }
 
-    DecisionTreeRegressor::DecisionTreeRegressor(int maxDepth, int minSampleSize, double proportionOfFeaturesUsed, int depth)
+    DecisionTreeRegressor::DecisionTreeRegressor(int maxDepth, int minSampleSize, double proportionOfFeaturesUsed, int depth, int numOfAvailableThreads)
         : c_maxDepth(maxDepth)
         , c_minSampleSize(minSampleSize)
         , c_proportionOfFeaturesUsed(proportionOfFeaturesUsed)
+        , m_numOfAvailableThreads(numOfAvailableThreads)
         , m_curDepth(depth)
     {}
 
@@ -32,11 +33,11 @@ namespace MachineLearning::DecisionTrees {
         #pragma omp parallel
         {
             #pragma omp single
-            FitImpl(trainingDataset, omp_get_num_threads());
+            FitImpl(trainingDataset);
         }
     }
 
-    void DecisionTreeRegressor::FitImpl(const Datasets::SupervisedLearningDatasetView<double> &trainingDataset, int numOfAvailableThreads) {
+    void DecisionTreeRegressor::FitImpl(const Datasets::SupervisedLearningDatasetView<double> &trainingDataset) {
         const auto& [features, observations] = trainingDataset;
 
         m_meanObservations = GetMeanObservations(observations);
@@ -51,32 +52,32 @@ namespace MachineLearning::DecisionTrees {
 
         auto [leftNodeDataset, rightNodeDataset] = SplitTrainingDataset(trainingDataset);
 
-        m_leftNode.reset(new DecisionTreeRegressor(c_maxDepth, c_minSampleSize, c_proportionOfFeaturesUsed, m_curDepth + 1));
-        m_rightNode.reset(new DecisionTreeRegressor(c_maxDepth, c_minSampleSize, c_proportionOfFeaturesUsed, m_curDepth + 1));
+        const double threadsDistributionCoeff = (double)leftNodeDataset.Features.GetNumOfRows() / (double)rightNodeDataset.Features.GetNumOfRows();
+        const int numOfLeftNodeThreads = std::round(threadsDistributionCoeff * (double)m_numOfAvailableThreads / (1. + threadsDistributionCoeff));
+        const int numOfRightNodeThreads = m_numOfAvailableThreads - numOfLeftNodeThreads;
 
-        if (numOfAvailableThreads <= 1)
+        m_leftNode.reset(new DecisionTreeRegressor(c_maxDepth, c_minSampleSize, c_proportionOfFeaturesUsed, m_curDepth + 1, numOfLeftNodeThreads));
+        m_rightNode.reset(new DecisionTreeRegressor(c_maxDepth, c_minSampleSize, c_proportionOfFeaturesUsed, m_curDepth + 1, numOfRightNodeThreads));
+
+        if (m_numOfAvailableThreads <= 1)
         {
-            m_leftNode->FitImpl(leftNodeDataset, 1);
-            m_rightNode->FitImpl(rightNodeDataset, 1);
+            m_leftNode->FitImpl(leftNodeDataset);
+            m_rightNode->FitImpl(rightNodeDataset);
             return;
         }
 
-        const double threadsDistributionCoeff = (double)leftNodeDataset.Features.GetNumOfRows() / (double)rightNodeDataset.Features.GetNumOfRows();
-        const int numOfLeftNodeThreads = std::round(threadsDistributionCoeff * (double)numOfAvailableThreads / (1. + threadsDistributionCoeff));
-        const int numOfRightNodeThreads = numOfAvailableThreads - numOfLeftNodeThreads;
+        #pragma omp task
+        m_leftNode->FitImpl(leftNodeDataset);
 
         #pragma omp task
-        m_leftNode->FitImpl(leftNodeDataset, numOfLeftNodeThreads);
-
-        #pragma omp task
-        m_rightNode->FitImpl(rightNodeDataset, numOfRightNodeThreads);
+        m_rightNode->FitImpl(rightNodeDataset);
     }
 
-    std::vector<double> DecisionTreeRegressor::Predict(const std::vector<double>& features) {
+    std::vector<double> DecisionTreeRegressor::Predict(const std::vector<double>& features) const {
         return PredictImpl(features);
     }
 
-    DataContainers::Table<double> DecisionTreeRegressor::Predict(const DataContainers::TableView<double>& features) {
+    DataContainers::Table<double> DecisionTreeRegressor::Predict(const DataContainers::TableView<double>& features) const {
         DataContainers::Table<double> res;
         res.SetNumOfColumns(std::ssize(m_meanObservations));
 
@@ -186,7 +187,7 @@ namespace MachineLearning::DecisionTrees {
         return {leftNodeData, rightNodeData};
     }
 
-    const std::vector<double>& DecisionTreeRegressor::PredictImpl(const std::ranges::random_access_range auto& featureRange) {
+    const std::vector<double>& DecisionTreeRegressor::PredictImpl(const std::ranges::random_access_range auto& featureRange) const {
         auto featureIterator = std::ranges::begin(featureRange);
         const auto* curNode = this;
 
