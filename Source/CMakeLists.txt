@@ -6,6 +6,7 @@ check_ipo_supported(RESULT supported OUTPUT error)
 
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Werror -D PrintTrainingTime")
+set(CMAKE_UNITY_BUILD TRUE)
 
 if (CMAKE_BUILD_TYPE MATCHES Debug)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fsanitize=address -fsanitize=leak -fsanitize=undefined")
