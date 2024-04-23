@@ -8,9 +8,6 @@ namespace MachineLearning::Ensembles {
     RandomForestRegressor::RandomForestRegressor(int numOfTrees, double proportionOfRowsUsed, int maxDepth, int minSampleSize,
         double proportionOfFeaturesUsed)
         : c_proportionOfRowsUsed(proportionOfRowsUsed)
-        , c_maxDepth(maxDepth)
-        , c_minSampleSize(minSampleSize)
-        , c_proportionOfFeaturesUsed(proportionOfFeaturesUsed)
         , m_numOfPredictedValues(0)
     {
         if (numOfTrees <= 0)
@@ -19,12 +16,9 @@ namespace MachineLearning::Ensembles {
         if (c_proportionOfRowsUsed <= 0. || c_proportionOfRowsUsed > 1.)
             throw std::invalid_argument("Invalid proportion of rows used");
 
-        if (c_proportionOfFeaturesUsed <= 0. || c_proportionOfFeaturesUsed > 1.)
-            throw std::invalid_argument("Invalid proportion of features used");
-
         m_trees.reserve(numOfTrees);
-       for (int i = 0; i < numOfTrees; ++i)
-           m_trees.emplace_back(c_maxDepth, c_minSampleSize, c_proportionOfFeaturesUsed, 4);
+        for (int i = 0; i < numOfTrees; ++i)
+           m_trees.emplace_back(maxDepth, minSampleSize, proportionOfFeaturesUsed);
     }
 
     void RandomForestRegressor::Fit(const Datasets::SupervisedLearningDatasetView<double>& dataset) {

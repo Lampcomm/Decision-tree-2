@@ -32,9 +32,6 @@ namespace MachineLearning::Ensembles {
 
     private:
         const double c_proportionOfRowsUsed;
-        const int c_maxDepth;
-        const int c_minSampleSize;
-        const double c_proportionOfFeaturesUsed;
         int m_numOfPredictedValues;
         std::vector<DecisionTrees::DecisionTreeRegressor> m_trees;
     };
