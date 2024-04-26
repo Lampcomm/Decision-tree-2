@@ -8,7 +8,13 @@
 namespace MachineLearning::DecisionTrees {
     class DecisionTreeRegressor final : public RegressionModel {
     public:
-        explicit DecisionTreeRegressor(int maxDepth = 5, int minSampleSize = 20, double proportionOfFeaturesUsed = 1.0, int numOfAvailableThreads = 1);
+        explicit DecisionTreeRegressor(
+            int maxDepth = 5,
+            int minSampleSize = 20,
+            double proportionOfFeaturesUsed = 1.0,
+            int numOfAvailableThreads = 1
+        );
+
         DecisionTreeRegressor(DecisionTreeRegressor&& other) noexcept = default;
         ~DecisionTreeRegressor() override = default;
 
@@ -30,7 +36,13 @@ namespace MachineLearning::DecisionTrees {
             Datasets::SupervisedLearningDatasetView<double> RightNodeDataset;
         };
 
-        DecisionTreeRegressor(int maxDepth, int minSampleSize, double proportionOfFeaturesUsed, int depth, int numOfAvailableThreads);
+        DecisionTreeRegressor(
+            int maxDepth,
+            int minSampleSize,
+            double proportionOfFeaturesUsed,
+            int depth,
+            int numOfAvailableThreads
+        );
 
         void FitImpl(const Datasets::SupervisedLearningDatasetView<double>& trainingDataset);
 
