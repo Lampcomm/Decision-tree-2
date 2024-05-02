@@ -23,8 +23,6 @@ namespace MachineLearning::DecisionTrees {
         [[nodiscard]] std::vector<double> Predict(const std::vector<double>& features) const override;
         [[nodiscard]] DataContainers::Table<double> Predict(const DataContainers::TableView<double>& features) const override;
 
-        void SetNumOfAvailableThreads(int numOfAvailableThreads) { m_numOfAvailableThreads = numOfAvailableThreads; }
-
     private:
         struct SplittingParameters {
             int BestFeatureIndex = -1;
@@ -60,7 +58,7 @@ namespace MachineLearning::DecisionTrees {
         const int c_maxDepth;
         const int c_minSampleSize;
         const double c_proportionOfFeaturesUsed;
-        int m_numOfAvailableThreads;
+        const int m_numOfAvailableThreads;
         int m_curDepth = 0;
         double m_nodeMse = 0.0;
         std::vector<double> m_meanObservations;

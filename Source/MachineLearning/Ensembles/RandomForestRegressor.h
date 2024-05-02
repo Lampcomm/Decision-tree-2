@@ -26,10 +26,6 @@ namespace MachineLearning::Ensembles {
     private:
         Datasets::SupervisedLearningDatasetView<double> CreateBootstrappedDataset(const Datasets::SupervisedLearningDatasetView<double>& originalDataset) const;
 
-        static void CheckNumOfTrees(int numOfTrees);
-        static void CheckProportionOfRowsUsed(double proportionOfRowsUsed);
-        static void CheckProportionOfFeaturesUsedValue(double proportionOfFeaturesUsed);
-
     private:
         const double c_proportionOfRowsUsed;
         int m_numOfPredictedValues;
