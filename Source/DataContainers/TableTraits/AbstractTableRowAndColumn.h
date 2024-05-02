@@ -18,7 +18,6 @@ namespace DataContainers::TableTraits {
 
             IteratorTemplate() = default;
             IteratorTemplate(const IteratorTemplate&) = default;
-//            IteratorTemplate(IteratorTemplate&&) = default;
             IteratorTemplate(int index, OwnerType* owner)
                     : m_curIndex(index) , m_owner(owner) {}
 
@@ -42,9 +41,9 @@ namespace DataContainers::TableTraits {
             friend bool operator<=(const IteratorTemplate& a, const IteratorTemplate& b) { return a.m_curIndex <= b.m_curIndex; }
             friend bool operator>=(const IteratorTemplate& a, const IteratorTemplate& b) { return a.m_curIndex >= b.m_curIndex; }
 
-            friend IteratorTemplate operator+(const IteratorTemplate& a, difference_type n) { return Iterator(a.m_curIndex + n, a.m_owner); }
+            friend IteratorTemplate operator+(const IteratorTemplate& a, difference_type n) { return IteratorTemplate<IterRefType, OwnerType>(a.m_curIndex + n, a.m_owner); }
             friend IteratorTemplate operator+(difference_type n, const IteratorTemplate& a) { return a - n; }
-            friend IteratorTemplate operator-(const IteratorTemplate& a, difference_type n) { return Iterator(a.m_curIndex - n, a.m_owner); }
+            friend IteratorTemplate operator-(const IteratorTemplate& a, difference_type n) { return IteratorTemplate<IterRefType, OwnerType>(a.m_curIndex - n, a.m_owner); }
             friend difference_type operator-(const IteratorTemplate& a, const IteratorTemplate& b) { return a.m_curIndex - b.m_curIndex; }
 
         private:

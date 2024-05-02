@@ -4,6 +4,7 @@
 #include <MachineLearning/Utils/TimeSeriesForecastingUtils.h>
 #include <MachineLearning/DecisionTrees/DecisionTreeRegressor.h>
 #include <MachineLearning/Ensembles/RandomForestRegressor.h>
+#include <MachineLearning/Ensembles/AdaBoostRegressor.h>
 
 int main() {
     auto trainingDataset = []{
@@ -18,15 +19,13 @@ int main() {
     }();
 
     // omp_set_num_threads(6);
-    // auto regressor = MachineLearning::DecisionTrees::DecisionTreeRegressor(5, 3);
-    // regressor.SetNumOfAvailableThreads(6);
+    // auto regressor = MachineLearning::DecisionTrees::DecisionTreeRegressor(5, 3, 1.0, 6);
 
-    auto regressor = MachineLearning::Ensembles::RandomForestRegressor(1000, 0.75, 5, 3, 0.75);
+    //auto regressor = MachineLearning::Ensembles::RandomForestRegressor(1000, 0.75, 5, 3, 0.75);
+    auto regressor = MachineLearning::Ensembles::AdaBoostRegressor(1000, 4);
 
     const auto mae = MachineLearning::TimeSeriesForecastingUtils::WalkForwardValidation(regressor, trainingDataset, 10);
-    std::cout << "MAE: " << mae;
-
-    static_assert(std::ranges::random_access_range<DataContainers::TableTraits::AbstractTableRowAndColumn<double>>);
+    std::cout << "MAE: " << mae << '\n';
 
     return 0;
 }
