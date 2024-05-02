@@ -1,0 +1,5 @@
+### .gitignore template for CLion projects
+## CLion
+.idea/**/*
+Binaries/Debug/**/*
+Binaries/Release/**/*
