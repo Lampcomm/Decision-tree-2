@@ -34,7 +34,7 @@ namespace MachineLearning::TimeSeriesForecastingUtils {
     }
 
     template<class StoredType>
-    [[nodiscard]] double CalcMAE(const DataContainers::TableView<StoredType>& observations, const DataContainers::TableView<StoredType>& predictions) {
+    [[nodiscard]] double CalculateMAE(const DataContainers::TableView<StoredType>& observations, const DataContainers::TableView<StoredType>& predictions) {
         if (observations.GetNumOfRows() != predictions.GetNumOfRows()
             || observations.GetNumOfColumns() != predictions.GetNumOfColumns())
         {
