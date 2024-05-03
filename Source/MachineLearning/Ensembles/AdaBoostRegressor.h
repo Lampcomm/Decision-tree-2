@@ -44,7 +44,6 @@ namespace MachineLearning::Ensembles {
         const int m_numOfAvailableThreads;
         int m_numOfPredictedValues;
         double m_totalTreesWeight;
-        std::mt19937 m_randomGenerator;
         std::vector<DecisionTrees::DecisionTreeRegressor> m_trees;
         std::vector<double> m_treeWeights;
     };

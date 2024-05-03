@@ -3,6 +3,7 @@
 #include <random>
 #include <cmath>
 #include <execution>
+#include <RandomGenerators/RegularRandom.h>
 
 namespace MachineLearning::Ensembles {
     AdaBoostRegressor::AdaBoostRegressor(int maxNumOfTrees, int numOfAvailableThreads)
@@ -10,7 +11,6 @@ namespace MachineLearning::Ensembles {
             , m_numOfAvailableThreads(numOfAvailableThreads)
             , m_numOfPredictedValues(0)
             , m_totalTreesWeight(0.)
-            , m_randomGenerator(std::random_device{}())
     {
         if (maxNumOfTrees <= 0)
             throw std::invalid_argument("Number of trees is less than zero");
@@ -95,7 +95,7 @@ namespace MachineLearning::Ensembles {
 
         std::discrete_distribution<int> distribution(sampleProbabilities.begin(), sampleProbabilities.end());
         for (int i = 0; i < originalFeatures.GetNumOfRows(); ++i) {
-            const auto rowIndex = distribution(m_randomGenerator);
+            const auto rowIndex = distribution(RandomGenerators::RegularRandom::Generator);
             bootstrappedDataset.PushBackViewableRowIndex(originalFeatures.GetViewableTableRowIndex(rowIndex));
         }
 

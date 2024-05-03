@@ -2,7 +2,7 @@
 #include <numeric>
 #include <algorithm>
 #include <cmath>
-#include <random>
+#include <RandomGenerators/ThreadSafeRandom.h>
 #include <RangesUtils/ToVectorRangeAdaptor.h>
 
 namespace {
@@ -220,7 +220,7 @@ namespace MachineLearning::DecisionTrees {
     std::vector<int> DecisionTreeRegressor::GetRandomSubsetOfFeatures(int numOfFeatures) const {
         const auto subsetSize = std::max(1, static_cast<int>((double)numOfFeatures * c_proportionOfFeaturesUsed));
         std::vector<int> subset(subsetSize);
-        std::ranges::sample(std::ranges::views::iota(0, numOfFeatures), subset.begin(), subsetSize, std::mt19937{std::random_device{}()});
+        std::ranges::sample(std::ranges::views::iota(0, numOfFeatures), subset.begin(), subsetSize, RandomGenerators::ThreadSafeRandom::Generator);
 
         return subset;
     }

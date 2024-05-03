@@ -1,7 +1,7 @@
 #include "RandomForestRegressor.h"
 
-#include <random>
 #include <algorithm>
+#include <RandomGenerators/ThreadSafeRandom.h>
 #include <RangesUtils/ToVectorRangeAdaptor.h>
 
 namespace MachineLearning::Ensembles {
@@ -56,12 +56,11 @@ namespace MachineLearning::Ensembles {
         const auto& [originalFeatures, originalObservations] = originalDataset;
         Datasets::SupervisedLearningDatasetView bootstrappedDataset(originalFeatures.GetViewableTable(), originalObservations.GetViewableTable());
 
-        std::mt19937 randomGenerator(std::random_device{}());
         std::uniform_int_distribution distribution(0, originalFeatures.GetNumOfRows() - 1);
         const auto numOfBootstrappedRows = std::max(1, static_cast<int>((double)originalFeatures.GetNumOfRows() * c_proportionOfRowsUsed));
 
         for (int i = 0; i < numOfBootstrappedRows; ++i) {
-            const auto rowIndex = distribution(randomGenerator);
+            const auto rowIndex = distribution(RandomGenerators::ThreadSafeRandom::Generator);
             bootstrappedDataset.PushBackViewableRowIndex(originalFeatures.GetViewableTableRowIndex(rowIndex));
         }
 
