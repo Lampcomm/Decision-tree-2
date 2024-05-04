@@ -35,9 +35,9 @@ namespace MachineLearning::Ensembles {
 
         [[nodiscard]] std::vector<double> CalculateWeightedMedian(const DataContainers::TableView<double>& predictions) const;
 
-        [[nodiscard]] inline static double CalculateTreeWeight(double beta);
+        [[nodiscard]] static double CalculateTreeWeight(double beta);
         static void UpdateSampleWeights(std::vector<double>& sampleWeights, const std::vector<double>& sampleLosses, double beta);
-        [[nodiscard]] inline static double CalculateBeta(double meanLoss);
+        [[nodiscard]] static double CalculateBeta(double meanLoss);
 
     private:
         const int m_maxNumOfTrees;
