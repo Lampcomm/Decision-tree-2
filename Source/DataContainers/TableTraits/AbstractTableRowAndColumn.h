@@ -28,7 +28,7 @@ namespace DataContainers::TableTraits {
 
             reference operator*() const { return m_owner->At(m_curIndex); }
             pointer operator->() const { return &m_owner->At(m_curIndex); }
-            reference operator[](difference_type i) const { return m_owner->At(i); };
+            reference operator[](difference_type i) const { return m_owner->At(m_curIndex + i); };
 
             IteratorTemplate& operator++() { ++m_curIndex; return *this; }
             IteratorTemplate operator++(int) { auto tmp = *this; ++(*this); return tmp; }
@@ -45,7 +45,7 @@ namespace DataContainers::TableTraits {
             friend bool operator>=(const IteratorTemplate& a, const IteratorTemplate& b) { return a.m_curIndex >= b.m_curIndex; }
 
             friend IteratorTemplate operator+(const IteratorTemplate& a, difference_type n) { return IteratorTemplate(a.m_curIndex + n, a.m_owner); }
-            friend IteratorTemplate operator+(difference_type n, const IteratorTemplate& a) { return a - n; }
+            friend IteratorTemplate operator+(difference_type n, const IteratorTemplate& a) { return a + n; }
             friend IteratorTemplate operator-(const IteratorTemplate& a, difference_type n) { return IteratorTemplate(a.m_curIndex - n, a.m_owner); }
             friend difference_type operator-(const IteratorTemplate& a, const IteratorTemplate& b) { return a.m_curIndex - b.m_curIndex; }
 
@@ -56,6 +56,8 @@ namespace DataContainers::TableTraits {
 
         using Iterator = IteratorTemplate<AbstractTableRowAndColumn, ValueType>;
         using ConstIterator = IteratorTemplate<const AbstractTableRowAndColumn, const ValueType>;
+
+        virtual ~AbstractTableRowAndColumn() = default;
 
         [[nodiscard]] virtual int GetSize() const = 0;
         [[nodiscard]] virtual ValueType& At(int i) = 0;
