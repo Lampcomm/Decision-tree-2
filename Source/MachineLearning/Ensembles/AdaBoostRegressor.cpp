@@ -27,7 +27,7 @@ namespace MachineLearning::Ensembles {
         for (int i = 0; i < m_maxNumOfTrees; ++i) {
             const auto sampleProbabilities = CalculateSampleProbabilities(sampleWeights);
 
-            auto &tree = m_trees.emplace_back(1, 1, 1.0, m_numOfAvailableThreads);
+            auto &tree = m_trees.emplace_back(1, 2, 1.0, m_numOfAvailableThreads);
             tree.Fit(CreateBootstrappedDataset(dataset, sampleProbabilities));
             const auto predictions = tree.Predict(features);
 
@@ -142,7 +142,7 @@ namespace MachineLearning::Ensembles {
         int k = 0;
         double sumOfWeights = m_totalTreesWeight - sortedTreeWeights[0];
 
-        while(sumOfWeights > m_totalTreesWeight / 2.)
+        while(k < std::ssize(sampleIndexes) - 1 && sumOfWeights > m_totalTreesWeight / 2.)
             sumOfWeights -= sortedTreeWeights[++k];
 
         return predictions.GetRow(sampleIndexes[k]) | RangesUtils::to_vector;
