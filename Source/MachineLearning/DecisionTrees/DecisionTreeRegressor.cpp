@@ -210,8 +210,8 @@ namespace MachineLearning::DecisionTrees {
         std::vector<double> res(numOfUniqueElements - WindowSize + 1);
         for (int i = 0; i < std::ssize(res); ++i) {
             auto elemBunch = std::views::counted(std::ranges::begin(uniqueColumnElem) + i, WindowSize);
-            res[i] = (std::accumulate(std::ranges::begin(elemBunch), std::ranges::end(elemBunch), 0.0,
-                                      [](double res, double val){ return res + val / WindowSize; }));
+            res[i] = std::accumulate(std::ranges::begin(elemBunch), std::ranges::end(elemBunch), 0.0,
+                                      [](double res, double val){ return res + val / WindowSize; });
         }
 
         return res;
