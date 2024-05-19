@@ -12,7 +12,8 @@ namespace DataContainers {
 }
 
 namespace DataContainers::TableTraits {
-    template<class TableType, class ValueType>
+    template<class TableType,
+        class ValueType = std::remove_reference_t<decltype(TableType(std::declval<TableType&>()).At(std::declval<int>(), std::declval<int>()))>>
     class TableRow : public AbstractTableRowAndColumn<ValueType> {
         template<class T>
         friend class DataContainers::Table;

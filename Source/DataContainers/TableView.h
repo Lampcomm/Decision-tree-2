@@ -37,7 +37,7 @@ namespace DataContainers {
                 *outRange = At(rowIndex, columnIndex);
         }
 
-        auto GetRow(int rowIndex) const { return TableTraits::TableRow<const TableView<StoredType>, const StoredType>(rowIndex, *this); }
+        auto GetRow(int rowIndex) const { return TableTraits::TableRow(rowIndex, *this); }
 
         void PushBackViewableColumnIndex(int viewableTableColumnIndex) {
             if (viewableTableColumnIndex < 0 || viewableTableColumnIndex >= m_viewableTable->GetNumOfColumns())
@@ -51,7 +51,7 @@ namespace DataContainers {
                 *outRange = At(rowIndex, columnIndex);
         }
 
-        auto GetColumn(int columnIndex) const { return TableTraits::TableColumn<const TableView<StoredType>, const StoredType>(columnIndex, *this); }
+        auto GetColumn(int columnIndex) const { return TableTraits::TableColumn(columnIndex, *this); }
 
         void ClearViewableRows() { m_viewableRows.clear(); }
         void ClearViewableColumns() { m_viewableColumns.clear(); }

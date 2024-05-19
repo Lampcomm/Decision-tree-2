@@ -51,8 +51,8 @@ namespace DataContainers {
                 *outRange = m_tableData[GetElementIndexInTableData(rowIndex, columnIndex)];
         }
 
-        auto GetRow(int rowIndex) { return TableTraits::TableRow<Table<StoredType>, StoredType>(rowIndex, *this); }
-        auto GetRow(int rowIndex) const { return TableTraits::TableRow<const Table<StoredType>, const StoredType>(rowIndex, *this); }
+        auto GetRow(int rowIndex) { return TableTraits::TableRow(rowIndex, *this); }
+        auto GetRow(int rowIndex) const { return TableTraits::TableRow(rowIndex, *this); }
 
         template<std::ranges::input_range Range>
         void PushBackRow(Range&& inputRange) {
@@ -74,8 +74,8 @@ namespace DataContainers {
                 *outRange = m_tableData[GetElementIndexInTableData(rowIndex, columnIndex)];
         }
 
-        auto GetColumn(int columnIndex) { return TableTraits::TableColumn<Table<StoredType>, StoredType>(columnIndex, *this); }
-        auto GetColumn(int columnIndex) const { return TableTraits::TableColumn<const Table<StoredType>, const StoredType>(columnIndex, *this); }
+        auto GetColumn(int columnIndex) { return TableTraits::TableColumn(columnIndex, *this); }
+        auto GetColumn(int columnIndex) const { return TableTraits::TableColumn(columnIndex, *this); }
 
         template<std::ranges::input_range Range>
         void PushBackColumn(Range&& inputRange) {
