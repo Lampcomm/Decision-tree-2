@@ -33,26 +33,42 @@ namespace MachineLearning::TimeSeriesForecastingUtils {
         return {features, observations};
     }
 
-    template<class StoredType>
-    [[nodiscard]] double CalculateMAE(const DataContainers::TableView<StoredType>& observations, const DataContainers::TableView<StoredType>& predictions) {
+    template<class StoredType, class FuncType>
+    [[nodiscard]] double CalculateMeanError(
+        const DataContainers::TableView<StoredType>& observations,
+        const DataContainers::TableView<StoredType>& predictions,
+        FuncType calculateElementError)
+    {
         if (observations.GetNumOfRows() != predictions.GetNumOfRows()
-            || observations.GetNumOfColumns() != predictions.GetNumOfColumns())
+          || observations.GetNumOfColumns() != predictions.GetNumOfColumns())
         {
             throw std::invalid_argument("Size of observations and predictions don't coincide");
         }
 
-        double mae = 0.0;
+        double meanError = 0.0;
         const auto n = static_cast<double>(observations.GetNumOfRows() * observations.GetNumOfColumns());
-
         for (int rowIndex = 0; rowIndex < observations.GetNumOfRows(); ++rowIndex) {
             auto observationRow = observations.GetRow(rowIndex);
             auto predictionRow = predictions.GetRow(rowIndex);
-            mae += std::transform_reduce(observationRow.begin(), observationRow.end(), predictionRow.begin(), 0.0,
+
+            meanError += std::transform_reduce(observationRow.begin(), observationRow.end(), predictionRow.begin(), 0.0,
                                          std::plus(),
-                                         [n](double observation, double prediction){ return std::abs(observation - prediction) / n; });
+                                         [n, &calculateElementError](double observation, double prediction){ return calculateElementError(observation, prediction) / n; });
         }
 
-        return mae;
+        return meanError;
+    }
+
+    template<class StoredType>
+    [[nodiscard]] double CalculateMAE(const DataContainers::TableView<StoredType>& observations, const DataContainers::TableView<StoredType>& predictions) {
+        return CalculateMeanError(observations, predictions,
+            [](double observation, double prediction){ return std::abs(observation - prediction); });
+    }
+
+    template<class StoredType>
+    [[nodiscard]] double CalculateMRPE(const DataContainers::TableView<StoredType>& observations, const DataContainers::TableView<StoredType>& predictions) {
+        return CalculateMeanError(observations, predictions,
+            [](double observation, double prediction){ return std::abs(observation - prediction) / observation; }) * 100;
     }
 
     [[nodiscard]] double WalkForwardValidation(RegressionModel& regressor, const Datasets::SupervisedLearningDataset<double>& dataset, int numOfTests);

@@ -45,7 +45,7 @@ namespace MachineLearning::TimeSeriesForecastingUtils {
     std::cout << "Mean training time: " << (double)totalTrainingTime.count() / (double)numOfTests * 1e-6 << " s.\n";
 #endif
 
-        return CalculateMAE(testDataset.Observations, DataContainers::TableView(predictions));
+        return CalculateMRPE(testDataset.Observations, DataContainers::TableView(predictions));
     }
 
 }
