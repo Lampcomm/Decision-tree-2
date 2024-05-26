@@ -25,6 +25,8 @@ set(PROJECT_FILES ${SOURCES} ${HEADERS})
 add_executable(Decision_tree_2 ${PROJECT_FILES})
 
 find_package(OpenMP REQUIRED)
-target_link_libraries(Decision_tree_2 PRIVATE OpenMP::OpenMP_CXX)
+find_package(TBB REQUIRED)
+
+target_link_libraries(Decision_tree_2 PRIVATE OpenMP::OpenMP_CXX PRIVATE TBB::tbb)
 target_include_directories(Decision_tree_2 PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
 set_property(TARGET Decision_tree_2 PROPERTY INTERPROCEDURAL_OPTIMIZATION TRUE)
