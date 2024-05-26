@@ -8,14 +8,14 @@
 #include <MachineLearning/Ensembles/AdaBoostRegressor.h>
 
 int main() {
-    auto trainingDataset = []{
+    const auto trainingDataset = []{
         constexpr int featuresLag = 3;
         constexpr int observationsLag = 3;
 
-        // auto table = DataContainers::TableUtils::LoadTableFromFile<double>("dataset.csv", {"Day"});
-        auto table = DataContainers::TableUtils::LoadTableFromFile<double>("daily-total-female-births.csv", {"Date"});
-        // auto table = DataContainers::TableUtils::LoadTableFromFile<double>("daily-min-temperatures.csv", {"Date"});
-        // auto table = DataContainers::TableUtils::LoadTableFromFile<double>("BigDataSet.csv", {"Date"});
+        // const auto table = DataContainers::TableUtils::LoadTableFromFile<double>("dataset.csv", {"Day"});
+        const auto table = DataContainers::TableUtils::LoadTableFromFile<double>("daily-total-female-births.csv", {"Date"});
+        // const auto table = DataContainers::TableUtils::LoadTableFromFile<double>("daily-min-temperatures.csv", {"Date"});
+        // const auto table = DataContainers::TableUtils::LoadTableFromFile<double>("BigDataSet.csv", {"Date"});
 
         return MachineLearning::TimeSeriesForecastingUtils::SeriesToSupervised(table, featuresLag, observationsLag);
     }();

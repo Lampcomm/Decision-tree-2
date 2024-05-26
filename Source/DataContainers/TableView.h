@@ -56,11 +56,11 @@ namespace DataContainers {
         void ClearViewableRows() { m_viewableRows.clear(); }
         void ClearViewableColumns() { m_viewableColumns.clear(); }
 
-        [[nodiscard]] inline int GetViewableTableRowIndex(int viewRowIndex) const {
+        [[nodiscard]] int GetViewableTableRowIndex(int viewRowIndex) const {
             return m_viewableRows.empty() ? viewRowIndex : m_viewableRows[viewRowIndex];
         }
 
-        [[nodiscard]] inline int GetViewableTableColumnIndex(int viewColumnIndex) const {
+        [[nodiscard]] int GetViewableTableColumnIndex(int viewColumnIndex) const {
             return m_viewableColumns.empty() ? viewColumnIndex : m_viewableColumns[viewColumnIndex];
         }
 

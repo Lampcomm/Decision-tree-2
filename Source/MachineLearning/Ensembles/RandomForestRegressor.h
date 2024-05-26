@@ -24,7 +24,7 @@ namespace MachineLearning::Ensembles {
         [[nodiscard]] DataContainers::Table<double> Predict(const DataContainers::TableView<double>& features) const override;
 
     private:
-        Datasets::SupervisedLearningDatasetView<double> CreateBootstrappedDataset(const Datasets::SupervisedLearningDatasetView<double>& originalDataset) const;
+        [[nodiscard]] Datasets::SupervisedLearningDatasetView<double> CreateBootstrappedDataset(const Datasets::SupervisedLearningDatasetView<double>& originalDataset) const;
 
     private:
         const double c_proportionOfRowsUsed;
